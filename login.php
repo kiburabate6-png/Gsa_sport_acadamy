@@ -19,7 +19,7 @@ if(isset($_GET['error'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GSA Academy | Member Login</title>
+    <title>GSA Academy | Member Login page</title>
     <style>
         :root { --primary: #1e3799; --accent: #27ae60; --danger: #e74c3c; }
         body { 
