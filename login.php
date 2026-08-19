@@ -1,7 +1,6 @@
 <?php 
 include 'db_config.php';
 $error = "";
-
 // Check for error messages coming from auth_process.php
 if(isset($_GET['error'])){
     if($_GET['error'] == "1") {
@@ -13,13 +12,12 @@ if(isset($_GET['error'])){
     }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GSA Academy | Member Login page</title>
+    <title>GSA Academy | Members Login page</title>
     <style>
         :root { --primary: #1e3799; --accent: #27ae60; --danger: #e74c3c; }
         body { 
